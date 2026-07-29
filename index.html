@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Cá Nhân | Nguyễn Văn A</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Chèn font chữ hiện đại từ Google Fonts -->
+    <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Thanh điều hướng (Navigation Bar) -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo"><a href="#">A.Nguyen</a></div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Giới thiệu</a></li>
+                    <li><a href="#skills">Kỹ năng</a></li>
+                    <li><a href="#projects">Dự án</a></li>
+                    <li><a href="#contact" class="btn-contact">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Phần Giới thiệu chính (Hero Section) -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <span class="sub-title">Xin chào, tôi là</span>
+                <h1>Nguyễn Văn A</h1>
+                <h2>UI/UX Designer & Web Developer</h2>
+                <p>Tôi đam mê tạo ra các trải nghiệm kỹ thuật số mượt mà, giao diện đẹp mắt và những dòng mã nguồn tối ưu hiệu năng.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">Xem dự án</a>
+                    <a href="#contact" class="btn-secondary">Liên hệ tôi</a>
+                </div>
+            </div>
+            <div class="hero-avatar">
+                <!-- Thay bằng ảnh chân dung thật của bạn (tốt nhất là ảnh nền trong suốt hoặc hình tròn) -->
+                <img src="https://unsplash.com" alt="Nguyễn Văn A">
+            </div>
+        </div>
+    </section>
+
+    <!-- Phần Thông tin chi tiết (About Section) -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Về Bản Thân</h2>
+            <div class="about-content">
+                <p>Với hơn 2 năm kinh nghiệm thiết kế và phát triển các sản phẩm công nghệ, tôi luôn tập trung vào việc cân bằng giữa tính thẩm mỹ của giao diện và trải nghiệm thực tế của người dùng. Tôi thích học hỏi công nghệ mới và giải quyết các bài toán lập trình phức tạp.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phần Kỹ năng (Skills Section) -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Kỹ Năng</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Adobe XD, Nghiên cứu người dùng, Wireframing.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Front-End</h3>
+                    <p>HTML5, CSS3, JavaScript (ES6), ReactJS, TailwindCSS.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Back-End</h3>
+                    <p>Node.js, Express, RESTful APIs, cơ sở dữ liệu MongoDB.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phần Dự án (Projects Section) -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Dự Án Nổi Bật</h2>
+            <div class="projects-grid">
+                <!-- Dự án 1 -->
+                <div class="project-card">
+                    <img src="https://unsplash.com" alt="Dự án 1" class="project-img">
+                    <div class="project-info">
+                        <h3>E-Commerce Web App</h3>
+                        <p>Website bán hàng thời trang với đầy đủ tính năng giỏ hàng, thanh toán và quản lý đơn hàng.</p>
+                        <a href="#" class="project-link">Xem chi tiết &rarr;</a>
+                    </div>
+                </div>
+                <!-- Dự án 2 -->
+                <div class="project-card">
+                    <img src="https://unsplash.com" alt="Dự án 2" class="project-img">
+                    <div class="project-info">
+                        <h3>Dashboard Analytics</h3>
+                        <p>Giao diện quản trị, thống kê dữ liệu kinh doanh trực quan với các biểu đồ tương tác cao.</p>
+                        <a href="#" class="project-link">Xem chi tiết &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phần Liên hệ (Contact Section) -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2>Hãy Cùng Hợp Tác!</h2>
+                <p>Tôi luôn sẵn sàng đón nhận những cơ hội làm việc mới hoặc thảo luận về ý tưởng dự án của bạn.</p>
+                <div class="contact-details">
+                    <p>📧 Email: <a href="mailto:contact@example.com">contact@example.com</a></p>
+                    <p>📞 Điện thoại: 0123 456 789</p>
+                    <p>📍 Vị trí: Hà Nội, Việt Nam</p>
+                </div>
+            </div>
+            <!-- Form gửi thông tin -->
+            <form class="contact-form" action="#" method="POST">
+                <input type="text" placeholder="Họ và tên" required>
+                <input type="email" placeholder="Email của bạn" required>
+                <textarea placeholder="Tin nhắn của bạn..." rows="5" required></textarea>
+                <button type="submit" class="btn-submit">Gửi Tin Nhắn</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Chân trang (Footer) -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 A.Nguyen. Thiết kế và hoàn thiện bởi cá nhân.</p>
+            <div class="socials">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
